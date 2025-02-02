@@ -11,7 +11,7 @@
 header {
     background-color: #add8e6;
     padding-top: 20px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 
 .flex-container {
@@ -47,11 +47,13 @@ header {
 main > section {
     padding: 30px;
 }
-    
+
 .container {
     width: 1200px;
     margin: 0 auto;
 }
+
+/* Blue container */
 
 .bg-blue > .container {
     width: 900px;
@@ -60,21 +62,37 @@ main > section {
 .bg-blue .container .row {
     background-color: #ee82ee;
 }
-    
+
+/* Small-big boxes */
+
+.bigbox {
+    width: 800px;
+    background-color: #1e90ff;
+}
+
+.smallbox {
+    width: 400px;
+    background-color: #ffc0cb;
+}
+
+.bg-grey .smallbox {
+    order: -1;
+}
+
+
 /* Background colors*/
-    
+
 .bg-blue {
     background-color: blue;
 }
-    
+
 .bg-grey {
     background-color: #d3d3d3;
 }
-    
+
 /* Da rimuovere */
-    
+
 .debug .row {
     height: 400px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
-    
