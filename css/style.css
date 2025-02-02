@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* intestazione pagina */
 
 header {
     background-color: #add8e6;
@@ -39,3 +40,33 @@ header {
     text-align: end;
 }
 
+
+
+/* Corpo della pagina */
+
+main > section {
+    padding: 30px;
+}
+    
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+    
+/* Background colors*/
+    
+.bg-blue {
+    background-color: blue;
+}
+    
+.bg-grey {
+    background-color: #d3d3d3;
+}
+    
+/* Da rimuovere */
+    
+.debug .row {
+    height: 400px;
+    background-color: blueviolet;
+}
+    
