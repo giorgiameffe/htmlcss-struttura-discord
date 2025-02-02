@@ -45,7 +45,7 @@ header {
 /* Corpo della pagina */
 
 main > section {
-    padding: 30px;
+    padding: 50px;
 }
 
 .container {
@@ -94,6 +94,8 @@ main > section {
 
 /* Footer sections */
 
+/* First part */
+
 .double {
     background-color: #23272a;
     height: 600px;
@@ -116,8 +118,33 @@ main > section {
 .menu {
     width: 200px;
     border: 2px dotted #ffff;
-
 }
+h3 {
+    color: #9a9a9a;
+}
+
+/* Second part */
+
+.banner {
+    padding-top: 20px;
+}
+
+.buttons {
+    background-color: #7fffd4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #ffb6c1;
+}
+.buttons > button {
+    padding: 5px;
+    border: 2px dotted #000000;
+}
+
+
 /* Background colors*/
 
 .bg-blue {
@@ -136,5 +163,4 @@ main > section {
 
 .debug .row {
     height: 400px;
-    /* background-color: blueviolet; */
 }
