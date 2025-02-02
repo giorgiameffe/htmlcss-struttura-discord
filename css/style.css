@@ -79,6 +79,14 @@ main > section {
     order: -1;
 }
 
+/* Green row */
+
+.bg-grey .container .row {
+    height: 800px;
+    background-color: #228b22;
+}
+
+/* rimuovere altezza */
 
 /* Background colors*/
 
