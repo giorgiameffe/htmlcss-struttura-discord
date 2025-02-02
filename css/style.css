@@ -52,6 +52,14 @@ main > section {
     width: 1200px;
     margin: 0 auto;
 }
+
+.bg-blue > .container {
+    width: 900px;
+}
+
+.bg-blue .container .row {
+    background-color: #ee82ee;
+}
     
 /* Background colors*/
     
